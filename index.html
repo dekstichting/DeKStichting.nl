@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>DeK stichting</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Template Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,100&display=swap" rel="stylesheet">
+      <!-- Template CSS Files -->
+      <link rel="stylesheet" href="css/devicon.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- CSS Skin File -->
+      <link rel="stylesheet" href="css/skins/yellow.css">
+      <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+   </head>
+   <body>
+      <!-- PRELOADER STARTS -->
+      <div id="preloader">
+         <div class="line"></div>
+      </div>
+      <!-- PRELOADER ENDS -->
+      <!-- WRAPPER STARTS -->
+      <div class="page-content">
+         <!-- HEADER STARTS -->
+         <header>
+            <!-- Desktop Menu Starts -->
+            <div class="header-inner hide-mobile">
+               <!-- MENU STARTS -->
+               <div class="menu">
+                  <nav>
+                     <ul>
+                        <li><span class="active" id="home-link"><img id="homepageLogoNavbar" src="./assets/images/DEK-st_website_homepage_logo.png"></span></li>
+                        <li><span id="about-link">Residentie</span></li>
+                        <li><span id="blog-link">DeK expo</span></li>
+                        <li><span id="portfolio-link">Agenda</span></li>
+                        <li><span id="contact-link">Kontakt</span></li>
+                        
+                     </ul>
+                  </nav>
+               </div>
+               <!-- MENU ENDS -->
+               <!-- FREELANCE STARTS -->
+               <div class="mail">
+                  <p>
+                     Email : 
+                     <span>dekstichting@gmail.com</span>
+                  </p>
+               </div>
+               <!-- FREELANCE ENDS -->
+            </div>
+            <!-- Desktop Menu Ends -->
+            <!-- Mobile Menu Starts -->
+            <nav class="mobile-menu">
+               <div id="menuToggle">
+                  <input type="checkbox" id="checkboxmenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul class="list-unstyled" id="menu">
+                     <li><a href="#home"><span>Home</span></a></li>
+                     <li><a href="#about"><span>Residentie</span></a></li>
+                     <li><a href="#blog"><span id="blog-link">DeK expo</span></a></li>
+                     <li><a href="#portfolio"><span>Agenda</span></a></li>
+                     <li><a href="#contact"><span>Kontakt</span></a></li>
+                     <!-- <li><a href="#blog"><span>Blog</span></a></li> -->
+                  </ul>
+               </div>
+            </nav>
+            <!-- Mobile Menu Ends -->
+         </header>
+         <!-- HEADER ENDS -->
+         <div id="wrapper">
+            <main class="flex-column-mobile">
+               <!-- HOME SECTION STARTS -->
+               <section class="home image" id="home">
+                  <div id="homepageWrapper">
+                     <img src="./assets/images/DEK-st_website_homepage_titel.png" alt=" " id="homepageLogo">
+                     <div id="homepageTekstWrapper">
+                        <video src="./assets/videos/videoGemeente.mp4" type="video/mp4" id="videoGemeente" controls=true width="280px"></video>
+                        <span id="dankVideo">Wij bedanken de gemeente 's-Hertogenbosch voor het filmen en delen van deze video</span>
+                        <!-- <h2 id="homepageTekstTitel">Draagt jonge makers een warm hart toe</h2>
+                        <p id="homepageTekstContent">Beeldende kunst is verbonden met ‘s-Hertogenbosch, zij het
+                           veelal via oude meesters er is nog maar een klein podium voor de
+                           kunstenaars van morgen. Wij willen de makers die op dit moment
+                           sterk in hun praktijk staan, een podium bieden om te tonen.</p> -->
+                        <div id="homepageWrapperSponsoren">
+                        <img src="./assets/images/DEK-st_website_homepage_sponsor_sh.png" alt=" " id="homepageTekstSponsoren">
+                        <img src="./assets/images/DEK-st_website_homepage_sponsor_mondriaanfonds.png" alt=" " id="homepageTekstSponsorenMondriaan">
+                        <img src="./assets/images/DEK-st_website_homepage_sponsor_derooiehaen.png" alt=" " id="homepageTekstSponsoren">
+                        <img src="./assets/images/logo-kunstloc.png" alt=" " id="homepageTekstSponsoren">
+                        </div>
+                     </div>
+                  </div>
+                  <!-- CALL TO ACTION STARTS -->
+                  <span class="animated-layer animated-btn cta" id="cta">
+                     <span>
+                     </span>
+                  </span>
+                  <!-- CALL TO ACTION ENDS -->
+               </section>
+               <img src="./assets/images/DEK-st_website_homepage_titel.png" alt=" " id="homepageLogoMobile">
+               <!-- HOME SECTION ENDS -->
+               
+               <!-- <section class="testimonials" id="blog">
+                  <div class="testimonials-container flex-column-mobile">
+                     <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="dekexpoTekstWrapper">
+                           <h1 class="dekexpo">
+                              19.5 - 21.5<br />
+                              DeK expo <br />
+                              <br />
+                           </h2>
+                           <h3 class="dekexpoTekst">
+                              We danken allen die ons is komen bezoeken tijdens de DeK Expo!
+                              <br />
+                              <br />
+                              Houd deze site in de gaten voor de foto's en nabeschouwing.
+                              <br />
+                              <br />
+                              Of kijk op onze <a href="https://instagram.com/dekstichting">Insta!</a>
+                           </div>
+                           
+                        </span>                  
+                  </div> -->
+                  <!-- <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png"> -->
+               </section>
+
+               <!-- <img src="./assets/images/DEK-st_website_dekexpo-page_titel.png" alt=" " class="dekexpoLogoClass" id="dekexpoLogo"> -->
+
+
+               
+               <!-- ABOUT SECTION STARTS -->
+               <section class="about main-section flex-column-mobile" id="about">
+                  <div id="residentieIntroWrapper">
+                     <img src="./assets/images/DEK-st_website_boog_spacer.png" alt=" " id="boogSpacer">
+                     <div id="residentieIntroTekstWrapper">
+                        <div id="residentieIntroTekstTitel">AiR het Nest 2024</div>
+                        <div id="residentieIntroTekstInleiding">Een jaar in Het Nest; een terugblik</div>
+                        <div id="residentieIntroTekstContent1">Op zaterdag 19 oktober eindigde DeK Stichting haar residentie in Het Nest met een overzichtexpositie van alle zes de kunstenaars. Ieder hebben zij in 2024 een periode gewerkt in Het Nest en ook ieder een afsluitende expositie gemaakt.<br />
+                        Dat betekent dat we zeven exposities hebben georganiseert dit jaar, we bedanken graag Het Nest voor de samenwerking.
+                        En natuurlijk onze talentvolle residenten:
+                        <br /> 
+                        <br />
+                        Met dank: <br />
+                        
+                        <img src="./assets/images/CF-RGB-roze.png" alt="Logo Cultuurfonds" id="LogoCultuurfonds">
+                        <img src="./assets/images/logo-hetnest (1).png" alt="Logo het Nest" id="LogoCultuurfonds">
+                        
+                     </div>
+                        <div id="residentieIntroTekstContent2">
+                           <a href="https://www.instagram.com/diekecoumans/">Dieke Coumans</a>- 1 t/m 13 april </br>
+                           <a href="https://www.instagram.com/microsoft__paint/">Helia Rafie</a> - 1 t/m 15 mei </br>
+                           <a href="https://www.instagram.com/remy_neumann/">Remy Neumann</a> - 1 t/m 15 mei </br>
+                           <a href="https://www.instagram.com/carletterijcken/">Carlette Rijcken</a> - 1 t/m 21 juni </br>
+                           <a href="https://www.instagram.com/geoffrey.van.dijk/">Geoffrey van Dijk</a> - 12 t/m 25 augustus </br>
+                           <a href="https://www.instagram.com/mike.dings/">Mike Dings</a> - 15 t/m 29 september </br>
+                           <br />
+                           <img src="./assets/images/Zin in Den Bosch logo lichte achtergrond RGB.png" alt="Logo Den Bosch" id="LogoCultuurfonds">
+                        </div>
+                     </div>
+                     <img src="./assets/images/DEK-st_website_boog_spacer-inverted.png" alt=" " id="boogSpacer">
+
+                  </div>
+
+                  
+                  <!-- INFO HOLDER STARTS -->
+                  <!-- <div class="info flex-column-mobile">
+                     
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_NikkiNordmann.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Nikki Nordmann</div>
+                        </span>
+                        <div id="residentieTekstContent">Nikki is een fotograaf en collage kunstenaar die ons is
+                           opgevallen door zijn lange loopbaan in kunst, in het street
+                           art circuit en is artistiek sterk en actief bezig. De organisatie
+                           heeft Nikki gekozen vanwege zijn sterke beeldtaal in zowel de
+                           collages die hij maakt als de foto’s die hij schiet. De organisatie
+                           vindt de combinatie van geënsceneerde fotografie met digitale
+                           en analoge collagetechnieken een sterke stap in Nikki zijn
+                           ontwikkeling als kunstenaar en ziet vooral ook een nieuw soort
+                           resident met een andere interactie met het publiek en een ander
+                           eindresultaat dan de voorgaande schilders.</div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Nikki Nordmann" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.mixcloud.com/nikkinordmann"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/nikkinordmann"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_01_EmaVanekova.png" alt="" id="residentieFotoCollageEma1">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Ema Vanekova</div>
+                        </span>
+                        <div id="residentieTekstContent">Ema is in 2020 afgestudeerd aan het AKV St. Joost in
+                           ‘s-Hertogenbosch. De organisatie heeft Ema gekozen voor
+                           haar ontwikkelde stijl en ontwikkeling in thematiek.
+                           Ema heeft een duidelijke modus operandi om tot beeld te
+                           komen. Hiervoor kijkt zij naar haar relatie met traditie
+                           en identiteit. Ema laat in haar praktijk zien duidelijk te
+                           hebben waar ze heen wilt en ook te weten hoe ze daar kan
+                           komen. Daarnaast was Ema toen we haar benaderde zelf
+                           erg actief bezig met haar Galerie/kunstruimte De Blauwe
+                           Dwaas in Tilburg. Dit laat de organisatie zien dat we met
+                           een gedreven kunstenaar te maken hebben die zich in de
+                           breedte bezighoudt met de kunsten.</div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Ema Vanekova" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.ema-vanekova.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/emavanekova"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_02_EmaVanekova.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_FrankWillems_01.gif" alt="" id="residentieFotoCollageEma1">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Frank Willems</div>
+                        </span>
+                        <div id="residentieTekstContent">Frank is al sinds 2015 actief als professioneel kunstenaar
+                           en zijn herkenbare werk is op veel openbare plekken
+                           zichtbaar, zowel in Den Bosch als internationaal. De
+                           organisatie heeft Frank gekozen omdat, hij een duidelijke
+                           vaste stijl heeft waarin hij toch nog weet te experimenten
+                           met materiaal, driedimensionaal, vaak wisselt van
+                           drager en nog steeds een ontwikkeling doormaakt op het
+                           gebied van taal en beeld. Daarnaast heeft Frank zijn weg
+                           gevonden aan de meer zakelijke kant van zijn praktijk en
+                           zien we een professionele, gedreven maker die zijn werk en
+                           persoon aan de man weet te krijgen.</div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Frank Willems" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="www.frank-willems.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/frank.willems.art"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_FrankWillems_03.png" alt="" id="residentieFotoCollageFrank">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_CasVanDeurssen.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Cas van Deurssen</div>
+                        </span>
+                        <div id="residentieTekstContent">Cas van Deurssen is in 2020 afgestudeerd aan het Minerva , heeft de 
+                           Bongers Beuningen prijs gewonnen en heeft in 2022 het Mondriaan Fonds kunstenaarsstart toegewezen 
+                           gekregen. De organisatie heeft Cas gekozen vanwege zijn sterke beeldtaal en krachtige werken. 
+                           Cas werkt zijn interesse en fascinatie op een expressieve manier uit op grote doeken met vele lagen 
+                           van symboliek en anderen beeldtaal. Wat de organisatie vooral opvalt is de zorgvuldigheid waarmee 
+                           de abstracte beelden worden geconstrueerd. Zijn doeken ogen wellicht rommelig, maar bij een betere 
+                           analyse van een aantal werken van Cas is goed te zien dat de doeken opgebouwd zijn uit lagen van 
+                           soms terugkerende patronen, interesses of technieken.
+                        </div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Cas van Deurssen" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.casvandeurssen.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/cas.vandeurssen"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_JosMerkx.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Jos Merkx</div>
+                        </span>
+                        <div id="residentieTekstContent">Jos is in 2019 afgestudeerd aan het AKV St. Joost in Den Bosch en is een van 
+                           de oprichters van de stichting en residentie. Jos laat in zijn praktijk zien grip te hebben op wat 
+                           portretteren is en hoe schildertechnieken gehanteerd dienen te worden. Jos neemt niet de positie in van 
+                           een portretschilder, Jos onderzoekt eerder wat het vastleggen van identiteit is, wat portretteren hierin 
+                           betekend, los van het portret houdt Jos zich bezig met het vastleggen van situaties, scenes en 
+                           gemoedstoestanden. Middels illustratieve, realistische en abstracte elementen bouwt Jos aan een 
+                           schilderij dat meestal op het intieme en intense afstevent. Jos heeft als enige resident zijn werkperiode 
+                           verlengt met 2 weken.
+                        </div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Jos Merkx" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.josmerkx.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/j.merkx"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_PjotrVanLeeuwen.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Pjotr van Leeuwen</div>
+                        </span>
+                        <div id="residentieTekstContent">Pjotr is in 2019 afgestudeerd aan het AKV St. Joost in Den Bosch en heeft 
+                           daarbij de Sint Lucasprijs gewonnen en is een van de oprichters van de stichting en residentie. Pjotr
+                            houdt zich bezig in het veld tussen titel en werk, betekenis en estheticisme, groot en klein en in 
+                            deze wisselende verhoudingen onderzoekt hij het alledaagse tot het sublieme. Zijn werk heeft een 
+                            geprofileerde stijl die hem meteen herkenbaar maakt en altijd de interesse van de kijker bezighoudt 
+                            met lagen en detail in de werken, zowel in de verf als in de titels. Ook is zijn constant groeiende 
+                            professionaliteit en investering in zijn praktijk aan iedere kant een maatstaf van zijn toewijding.
+                        </div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Pjotr van Leeuwen" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.pjotrvl.nl"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/pjutrvl"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div> -->
+                     <!-- <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_JesseFischer.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Jesse Fischer</div>
+                        </span>
+                        <div id="residentieTekstContent">Jesse is in 2020 afgestudeerd aan het AKV St. Joost in Den Bosch en heeft 
+                           onder andere een solo expositie gehad in het NoordBrabants Museum in het programma Brabantse Nieuwe, 
+                           we hebben hem gekozen om zijn actieve makerschap en artistieke zeggingskracht. Jesse laat volgens de 
+                           organisatie een duidelijke 3 hoeks verhouding zien tussen zijn opvattingen over de wereld, zijn snelle 
+                           losse tekentechnieken en zijn technisch ontwikkelde en gelaagde schildertechniek. Het resultaat, robuust 
+                           ogende schilderijen die veelal scenes afbeelden in geheel eigen stijl. 
+                        </div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Jesse Fischer" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.jessefisjes.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/fisjes"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div> -->
+                     <!-- <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                              <img class="my-photo" src="./assets/images/DEK-st_website_Residentie-page_profiel_MaritBiemans.png" alt="" id="residentieFotoCollage">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="residentieTekstWrapper">
+                        <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                        <div id="residentieTekstTitel">Marit Biemans</div>
+                        </span>
+                        <div id="residentieTekstContent">Marit is in 2021 afgestudeerd aan het AKV St. Joost in Den Bosch en is 
+                           sindsdien actief in Tilburg en Den Bosch met haar praktijk, ze is ons opgevallen door haar unieke werk 
+                           en persoonlijkheid.  Hoewel Marit nog maar net is afgestudeerd wanneer we haar benaderen voor de 
+                           residentie zien we dat haar werk sterk verbonden is met haar persoonlijkheid, niet per se het uitdiepen 
+                           van haar afkomst of identiteit, maar een verbeelding van een innerlijk en spiritueel zijn. De 
+                           organisatie ziet kwaliteit in de uit zorg en arbeid voortgekomen pen/potlood tekeningen, de etsen, 
+                           borduurwerken en anderen werken. Voor de programmering van de residentie is dit wederom net ander werk 
+                           dan we eerder hebben getoond en ook een ander werkproces om met de toeschouwers te delen tijdens de 
+                           residentie. 
+                        </div>
+                        <div id="residentieTekstFooter">
+                           <a href="./assets/interviews/Uitwerking Jos Merkx.pdf" download="Interview Marit Biemans" id="downloadLink">Download hier een interview met de kunstenaar</a>
+                           <a href="https://www.jessefisjes.com"><img src="./assets/images/DEK-st_website_Residentie-page_portfoliosite-icon.png" alt=" " id="residentieTekstFooterIcoonSite"></a>
+                           <a href="https://www.instagram.com/marit_biemans/"><img src="./assets/images/DEK-st_website_Residentie-page_instagram-icon.png" alt=" " id="residentieTekstFooterIcoonInsta"></a>
+                        </div>
+                     </div>
+
+                     </div> -->
+                  <!-- INFO HOLDER ENDS -->
+                  <!-- IMAGE STARTS -->
+
+<!-- INFO HOLDER ENDS -->
+                  
+                  <!-- <img alt="" class="separator hide-mobile" src="assets/separator.png"> -->
+               </section>
+
+               <section class="blog main-section flex-column-mobile" id="blog">
+                  <img src="./assets/images/DEK-st_website_boog_spacer.png" alt=" " id="boogSpacer">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        DeK Expo 2023
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <div class="swiper swiper-portfolio animated-layer fade-in-right-animation fadeInUp wow" data-wow-offset="200" id="DeKExpoSlideshow">
+                     <div class="swiper-wrapper">
+                     
+                        <div class="single-item swiper-slide">
+
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/118_BWC5391.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+
+                        </div>
+
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/083_BWC5270.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/133_BWC5439.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/072_BWC5230.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/073_BWC5232.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/074_BWC5240.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/075_BWC5244.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/076_BWC5250.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/077_BWC5255.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/078_BWC5257.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/079_BWC5261.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/080_BWC5263.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/081_BWC5265.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/082_BWC5267.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/086_BWC5281.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/087_BWC5284.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <!-- <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/088_BWC5286.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/090_BWC5293.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/092_BWC5299.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div>
+                        <div class="single-item swiper-slide">
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/Foto's DeK Expo 2023 verkleind/093_BWC5305.jpg" alt="Image Project" id="dekExpoFoto">
+                           </div>
+                        </div> -->
+
+                     </div>
+
+                     <div class="nav-item next-item animated-btn" id="dekExpoKnop"><span></span></div>
+                     <div class="nav-item prev-item animated-btn" id="dekExpoKnop"><span></span></div>
+
+                  </div>
+                  
+                  <p id="tekstDeKExpoSlide">
+                     
+                     In mei 2023 werden acht kunstenaars getoond in de Bossche binnenstad. <br />
+                     Hou de agenda in de gaten voor de volgende editie! <br /> <br />
+                     <a href="./DeK Expo 2023/index.html" target="_blank">Klik <span style="font-weight: bold;">hier</span> om alle foto's te bekijken</a>
+                     <br />
+                     <a href="./Archief/index.html" target="_blank">Klik <span style="font-weight: bold;">hier</span> om meer te weten te komen over de acht kunstenaars</a>
+                     <br />
+
+                     <br />
+                     <span id="tekstDeKExpoSlideBenNienhuis">Foto’s door Ben Nienhuis - <a href="https://www.bwcpictures.nl"> www.bwcpictures.nl </a></span>
+                     <br />
+                   
+
+                  </p>
+
+                  <img src="./assets/images/DEK-st_website_boog_spacer-inverted.png" alt=" " id="boogSpacer">
+                  <!-- <img alt="" class="separator hide-mobile" src="assets/separator.png"> -->
+               </section>
+
+
+
+               <!-- ABOUT SECTION ENDS -->
+               <!-- <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png"> -->
+               <!-- PORTFOLIO SECTION STARTS -->
+               <section class="portfolio main-section flex-column-mobile" id="portfolio">
+                  <img src="./assets/images/DEK-st_website_boog_spacer.png" alt=" " id="boogSpacer">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Agenda
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <div class="swiper swiper-portfolio animated-layer fade-in-right-animation fadeInUp wow" data-wow-offset="200">
+                     <div class="swiper-wrapper">
+                        <!-- PORTFOLIO ITEM STARTS -->
+
+                        
+
+
+                        <div class="single-item swiper-slide">
+
+                           <!-- ITEM MAIN CONTENT STARTS -->
+                           <div class="main-content">
+                              <img class="img-fluid" src="./assets/images/DEK-st_website_homepage_logo.png" alt="DeK Logo" id="posterGeoffrey">
+                           </div>
+                           <!-- ITEM MAIN CONTENT ENDS -->
+                           <!-- ITEM DETAILS STARTS -->
+                           <div class="details">
+                              <h4 id="agendaTitel">Programmering voor het nieuwe jaar</h4>
+                              <div>
+                                 <p id="agendaTekst"><br />
+                                    
+                                 Nog onder voorbehoud, houdt ons in de gaten om op de hoogte te blijven.<br />
+                                 </p>
+                                 <p id="agendaDatum">2025</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        
+
+                     
+                     <div class="nav-item next-item animated-btn"><span></span></div>
+                     <div class="nav-item prev-item animated-btn"><span></span></div>
+                  </div>
+                  <img src="./assets/images/DEK-st_website_boog_spacer-inverted.png" alt=" " id="boogSpacer">
+                  <!-- <img alt="" class="separator hide-mobile" src="assets/separator.png"> -->
+               </section>
+               <!-- PORTFOLIO SECTION ENDS -->
+               <!-- <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png"> -->
+               <!-- CONTACT SECTION STARTS -->
+               <section class="contact main-section flex-column-mobile" id="contact">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Kontakt
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <!-- CONTACTS STARTS -->
+                  <div class="boxes">
+                     <div>
+
+                     </div>
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-envelope"></i>
+                           <p> 
+                              <span class="small-text">email</span>
+                              dekstichting@gmail.com
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-share-nodes"></i>
+                           <span class="small-text">Volg DeK</span>
+                           <ul class="social">
+                              <li>
+                                 <a href="https://www.instagram.com/dekstichting">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        <!-- <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-share-nodes"></i>
+                           <span class="small-text">Volg AiR de Rooie Haen</span>
+                           <ul class="social">
+                              <li>
+                                 <a href="https://www.instagram.com/air.rooie.haen">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     -->
+                        <!-- CONTACT ITEM ENDS -->                        
+                     </div>
+                  </div>
+                  <!-- CONTACTS ENDS -->
+
+               </section>
+               <!-- CONTACT SECTION ENDS -->
+               <!-- <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png"> -->
+               <img alt="" class="hide-desktop z-1" src="assets/separator-copyright-mobile.png">
+               <!-- COPYRIGHT SECTION STARTS -->
+               <section class="copyright">
+                  <img alt="" class="z-1 hide-mobile" src="assets/separator-copyright.png">
+                  <div>
+                     <span>&#169; DeK stichting</span>
+                     <!-- <span>Laat je <a target="_blank" href="https://www.instagram.com/derooiehaen/">dekken</a></span> -->
+
+                  </div>
+                  
+               </section>
+               <!-- COPYRIGHT SECTION ENDS -->
+            </main>
+         </div>
+         <!-- SCROLL BAR STARTS -->
+         <div class="scroll-progress hide-mobile">
+            <div>
+               <div></div>
+            </div>
+         </div>
+         <!-- SCROLL BAR ENDS -->
+      </div>
+      <!-- WRAPPER ENDS -->
+      <script src="js/jquery-3.6.3.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+
+   </body>
+</html>

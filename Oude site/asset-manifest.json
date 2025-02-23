@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f8b0db0.css",
+    "main.js": "/static/js/main.17aa723f.js",
+    "static/media/Logo-transparant-white.png": "/static/media/Logo-transparant-white.849808502a56c3038067.png",
+    "static/media/Logo-transparant-lightblue.png": "/static/media/Logo-transparant-lightblue.fe3278ec09771095e82e.png",
+    "static/media/zwart_geel.png": "/static/media/zwart_geel.e5a7ace23ecfd02642b5.png",
+    "static/media/MFO_LOGO_RGB_ROOD_SMALL.png": "/static/media/MFO_LOGO_RGB_ROOD_SMALL.b9624dafcd9f8f2730ea.png",
+    "index.html": "/index.html",
+    "main.8f8b0db0.css.map": "/static/css/main.8f8b0db0.css.map",
+    "main.17aa723f.js.map": "/static/js/main.17aa723f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f8b0db0.css",
+    "static/js/main.17aa723f.js"
+  ]
+}
