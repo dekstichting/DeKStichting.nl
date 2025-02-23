@@ -1,1 +1,1 @@
-# De K Stichting Website
+# DeK Stichting Website
