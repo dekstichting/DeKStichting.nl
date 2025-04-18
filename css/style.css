@@ -2906,7 +2906,13 @@ header .mobile-menu {
 		margin: 0;
 	}
 
+	
+
 	#videoGemeente {
+		display: none;
+	}
+
+		#residentieIntroTekstContent2 {
 		display: none;
 	}
 
